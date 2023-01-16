@@ -12,15 +12,14 @@ const Business = () => {
   }, [])
   return (
     <div className="hero min-h-screen">
-      <div className="hero-content flex-col lg:flex-row">
+      <div className="hero-content grid lg:grid-cols-2 gap-2">
         <div data-aos="fade-left"  data-aos-delay="300">
-          <img src={guy2} className="max-w-lg rounded-lg" />
+          <img src={guy2} className=" rounded-lg" />
         </div>
-        <img src={img2} className="max-w-sm ml-[-150px] mt-60" />
-
         <div className='text-left'>
+        
           <h1 className="text-xl text-warning font-bold mb-4">GROWING ONLINE</h1>
-          <h1 data-aos="fade-right"  data-aos-delay="300"  className="text-5xl text-black font-bold">
+          <h1 data-aos="fade-right"  data-aos-delay="300"  className="lg:text-5xl text-black font-bold">
             Steps To Build A<br />  <span className='underline decoration-warning'>Successful</span> Business & Digital Product
           </h1>
           <p className="py-6 text-black">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
